@@ -1,6 +1,11 @@
-/* .form {
+.form {
+  margin: 0 auto;
   max-width: 350px;
   padding: 25px;
+}
+
+.description {
+  text-align: center;
 }
 
 .label {
@@ -28,4 +33,4 @@
   background-color: aqua;
   cursor: pointer;
   padding: 10px 5px;
-} */
+}

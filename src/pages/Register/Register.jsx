@@ -27,7 +27,7 @@ const Register = () => {
 
   return (
     <div>
-      <h1>Register Page</h1>
+      <h1 className={style.description}>Register Page</h1>
       <form className={style.form} onSubmit={OnRegister}>
         <label htmlFor="name" className={style.label}>
           Name

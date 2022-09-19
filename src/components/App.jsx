@@ -1,6 +1,6 @@
 import Auth from './Auth/Auth';
 import UserRoutes from 'UserRoutes';
-// import Contacts from '../pages/Contacts/Contact';
+// import Contacts from '../pages/Contacts/Contacts';
 
 const App = () => {
   return (

@@ -27,7 +27,7 @@ const Login = () => {
 
   return (
     <div>
-      <h1>Login</h1>
+      <h1 className={style.description}>Login</h1>
       <form className={style.form} onSubmit={OnLogin}>
         <label htmlFor="email" className={style.label}>
           Email
