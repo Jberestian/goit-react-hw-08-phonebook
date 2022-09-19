@@ -18,7 +18,7 @@ const AuthUser = () => {
       <NavLink className={style.link} to="/">
         Home
       </NavLink>
-      <NavLink className={style.link} to="/contactBook">
+      <NavLink className={style.link} to="/contacts">
         Contact
       </NavLink>
       <p className={style.text}>
