@@ -13,6 +13,9 @@ const Auth = () => {
         <AuthUser />
       ) : (
         <div>
+          <NavLink className={style.link} to="/">
+            Home
+          </NavLink>
           <NavLink className={style.link} to="/register">
             Register
           </NavLink>

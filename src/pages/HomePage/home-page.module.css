@@ -1,0 +1,33 @@
+.title {
+  text-align: center;
+}
+
+.info {
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkWrapper {
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  margin: 0 150px;
+  font-size: 30px;
+  color: black;
+  transition: 250ms;
+}
