@@ -5,11 +5,11 @@ import style from './contactBook.module.css';
 const ContactBook = ({ contacts, removeContact }) => {
   const elements =
     contacts &&
-    contacts.map(({ name, phone, id }) => {
+    contacts.map(({ name, number, id }) => {
       return (
         <li className={style.item} key={id}>
           <p>
-            {name}: {phone}
+            {name}: {number}
           </p>
           <button
             type="button"
