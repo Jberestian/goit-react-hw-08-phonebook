@@ -1,13 +1,11 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { Navigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+
 import style from './register.module.css';
 
 import { signup } from 'redux/auth/auth-operations';
-import { isLogin } from 'redux/auth/auth-selector';
 
 const Register = () => {
   const dispatch = useDispatch();
-  const isUserLogin = useSelector(isLogin);
 
   const OnRegister = event => {
     event.preventDefault();
@@ -20,10 +18,6 @@ const Register = () => {
 
     dispatch(signup(data));
   };
-
-  if (isUserLogin) {
-    return <Navigate to="/contacts" />;
-  }
 
   return (
     <div>
