@@ -1,0 +1,11 @@
+.nav {
+  padding: 25px 0;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  padding: 5px 10px;
+}
