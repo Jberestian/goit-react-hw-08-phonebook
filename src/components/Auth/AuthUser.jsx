@@ -1,5 +1,4 @@
 import { useSelector, useDispatch } from 'react-redux';
-// import { NavLink } from 'react-router-dom';
 
 import { getUser } from 'redux/auth/auth-selector';
 
@@ -13,7 +12,6 @@ const AuthUser = () => {
 
   return (
     <div>
-      {/* <NavLink to="/Contacts">Contact</NavLink> */}
       <p>
         {name}
         <button onClick={onLogout} type="button">
